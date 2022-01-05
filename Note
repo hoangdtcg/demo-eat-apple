@@ -1,0 +1,29 @@
+Hứng Táo
+
+- Hiển thị ra được mảng object
+- Check va chạm
+- Hiểu hơn về hàm main
+
+Bước 1: Phân tích bài toán => đối tượng
+- Táo
+    - x,y
+    - size
+    - image
+    - speed
+    + dropDown
+    + render
+- Người chơi
+    - x,y
+    - size
+    - image
+    - speed
+    - directionMove
+    + move
+    + render
+
+- GameManager // main.js
+    - Nguoi choi
+    - Taos
+    + Kiem tra va cham
+    + Game Over
+    + Hien thi diem
