@@ -4,7 +4,8 @@ class Apple {
         this.y = y;
         this.image = "images/apple.png";
         this.speed = 10;
-        this.size = 20;
+        this.size = 15;
+        this.point = 3;
     }
 
     render(canvas){
@@ -17,7 +18,7 @@ class Apple {
         ctx.closePath();
         // let img = new Image();
         // img.src = this.image;
-        // ctx.drawImage(img,100,200,this.size,this.size);
+        // ctx.drawImage(img,this.x,this.y,this.size,this.size);
     }
 
     dropDown(){

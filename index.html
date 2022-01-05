@@ -5,9 +5,24 @@
     <title>Mini Case</title>
     <script src="Apple.js"></script>
     <script src="Player.js"></script>
+    <script src="data.js"></script>
 </head>
+<style>
+    #ui-game{
+        position: absolute;
+        left: 20px;
+        top: 20px
+    }
+</style>
 <body>
-<img src="images/apple.png" height="234" width="215" style="display: none"/>
+<!--<img src="images/apple.png" height="234" width="215" />-->
+<div id="ui-game">
+    <span style="font-weight: bold;color: royalblue">HighScore: </span>
+    <span style="color: royalblue" id="high-score">0</span>
+    <br>
+    <span style="font-weight: bold">Score: </span>
+    <span id="score">0</span>
+</div>
 <canvas id="game-screen" width="600px" height="800px" style="background-color: darksalmon"></canvas>
 <script src="main.js"></script>
 </body>
